@@ -8,7 +8,7 @@
             $gender = $_GET["gender"];
             $power = $_GET["power"];
 
-            echo "Hello {$name}<br>{$gender}<br>{$power}";
+            echo "Hello {$name}{$gender}{$power}";
         ?>
     </body>
 </html>
