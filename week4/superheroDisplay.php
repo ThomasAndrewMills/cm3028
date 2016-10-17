@@ -4,9 +4,9 @@
     </head>
     <body>
         <?php
-            $name = $_GET["name"];
-            $gender = $_GET["gender"];
-            $power = $_GET["power"];
+            $name = $_POST["name"];
+            $gender = $_POST["gender"];
+            $power = $_POST["power"];
 
             echo "Hello {$name}{$gender}{$power}";
         ?>
